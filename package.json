@@ -1,6 +1,6 @@
 {
   "name": "barber-trim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Similar to 'string.prototype.trim' but also cuts successive spaces inside the phrase",
   "main": "index.js",
   "type": "module",
