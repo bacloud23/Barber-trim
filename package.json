@@ -5,8 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "test:published": "node test_2.js"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "barber-trim": "^1.0.0"
+  }
 }

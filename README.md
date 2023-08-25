@@ -14,6 +14,18 @@ becomes
 
 ```All of us except Emran, Raju and Noman were there```
 
+### Usage
+```js
+import trim from "barber-trim"
+
+const str = `
+All of us
+except\tEmran, Raju and Noman were there.
+`;
+
+console.log(trim(str))
+```
+
 ### Note
 Please note that `Tab ↹` spaces and `← Backspaces` are considered like regular spaces.
 
